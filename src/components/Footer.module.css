@@ -1,0 +1,33 @@
+footer {
+  padding: 5rem 0px;
+  text-align: center;
+  font-size: 6rem;
+  color: #ffffff;
+}
+
+.footer_copyright {
+  font-size: 1.8rem;
+}
+
+.footer_bck_red {
+  background: #ff4800;
+  background: var(--color-primary);
+}
+
+.footer_logo {
+  flex-grow: 1;
+}
+.footer_logo_venue {
+  font-size: 4rem;
+  font-family: "Righteous", cursive;
+}
+
+.footer_icon {
+  width: 4rem;
+  height: 4rem;
+  transition: all 0.3s ease;
+}
+
+.logo img {
+  width: 4rem;
+}

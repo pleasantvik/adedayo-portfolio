@@ -1,0 +1,26 @@
+.featured_container {
+  position: relative;
+}
+.artist_name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40rem;
+  /* height: 16rem; */
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+}
+
+.artist_name_wrapper {
+  border: 0.2rem solid white;
+  height: 12rem;
+  margin: 0.6rem;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  padding: 2.1rem 7rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}

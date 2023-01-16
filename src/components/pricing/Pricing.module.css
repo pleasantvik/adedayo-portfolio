@@ -1,0 +1,129 @@
+.pricing_section {
+  padding: 7rem 0rem;
+}
+.center_wrapper {
+  max-width: 90rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.pricing_section h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.pricing_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--bck-black);
+  justify-content: center;
+}
+.pricing_wrapper .pricing_item {
+  flex-grow: 1;
+  width: 33%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.pricing_wrapper .pricing_inner_wrapper {
+  border: 2px solid #ffa800;
+  /* padding: 50px 20px; */
+}
+
+.pricing_inner_wrapper .pricing_title {
+  color: #ffffff;
+  text-align: center;
+  /* border-bottom: 1px solid #ffa800; */
+  padding-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.pricing_inner_wrapper .pricing_title span:nth-child(1) {
+  font-size: 5rem;
+  display: block;
+}
+.pricing_inner_wrapper .pricing_title span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+.pricing_inner_wrapper .pricing_description {
+  color: #b8b8b8;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  padding: 2rem 0px;
+  min-height: 7rem;
+}
+
+.pricing_inner_wrapper .pricing_buttons {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 38.75em) {
+  .pricing_wrapper .pricing_item {
+    width: 100%;
+  }
+}
+
+.heading {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%) skewY(-6deg);
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  width: 50%;
+  line-height: 1.95;
+  text-align: center;
+}
+
+.heading span {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 1.3rem 2rem;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+}
+
+.me {
+  animation: autoRotate 3s infinite linear;
+}
+
+@keyframes autoRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulsate {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.link {
+  border: none;
+  padding: 0.8rem 1.2rem;
+  background-color: #ffa800;
+  margin-bottom: 1rem;
+  animation: pulsate 1s infinite linear;
+}
+
+.link a {
+  text-decoration: none;
+  color: #fafafa;
+}

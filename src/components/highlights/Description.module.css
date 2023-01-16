@@ -1,0 +1,18 @@
+.highlight_description {
+  line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 3rem 0px;
+}
+
+.center_wrapper {
+  max-width: 90rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.h2 {
+  color: #ffa800;
+}

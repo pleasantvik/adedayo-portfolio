@@ -1,0 +1,48 @@
+.me {
+  animation: autoRotate 1s infinite linear;
+  border: none;
+  padding: 0.8rem;
+  background-color: #ffa800;
+}
+
+.me a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.center_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.center_wrapper h2 {
+  font-size: 2rem;
+}
+.center_wrapper p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+@keyframes autoRotate {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.icon_group {
+  font-size: 4rem;
+  display: flex;
+  gap: 2rem;
+  color: #ffa800;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.icon_group a {
+  color: #ffa800;
+}

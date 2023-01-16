@@ -1,0 +1,71 @@
+.center_wrapper {
+  max-width: 90rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.discount_wrapper {
+  display: flex;
+  padding: 7rem 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount_wrapper .discount_percentage {
+  padding-right: 10rem;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(1) {
+  color: #ff4800;
+  color: var(--color-primary);
+  font-size: 12.5rem;
+  font-weight: 400;
+  display: block;
+  line-height: 12rem;
+}
+
+.discount_wrapper .discount_percentage span:nth-child(2) {
+  color: #2c2c2c;
+  font-size: 5rem;
+  font-weight: 400;
+  display: block;
+}
+
+.discount_wrapper .discount_description h3 {
+  font-size: 3.4rem;
+  font-weight: 100;
+  margin: 0px;
+  color: #2c2c2c;
+}
+
+.discount_wrapper .discount_description p {
+  line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 20rem;
+  transform: rotate(-45deg);
+  object-fit: cover;
+}
+
+@media (max-width: 38.75em) {
+  .discount_wrapper {
+    /* display: flex; */
+    /* padding: 7rem 0px; */
+    flex-direction: column;
+    align-items: center;
+  }
+  .discount_percentage {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .profile {
+    transform: rotate(0deg);
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,24 @@
+.location_wrapper {
+  position: relative;
+}
+
+.location_tag {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.location_tag div {
+  background: #2c2c2c;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 22rem;
+  margin: 0 auto;
+  font-size: 2.9rem;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.location_frame {
+  width: 100%;
+  max-height: 50rem;
+}
