@@ -7,6 +7,7 @@ import task from "../../resources/images/task.png";
 import pig from "../../resources/images/pig.png";
 import omnifood from "../../resources/images/omnifood.png";
 import booosta from "../../resources/images/booosta.png";
+import realEstate from "../../resources/images/realEstate.PNG";
 import metaverse from "../../resources/images/metaverse.png";
 import nexter from "../../resources/images/nexter.png";
 import imdb from "../../resources/images/imdb.png";
@@ -23,6 +24,15 @@ export const Pricing = () => {
       image: booosta,
       tools: "Reactjs, React-query, Python,Django,MUI",
       git: "https://github.com/Prunedge-Dev-Team/rms-web",
+    },
+    {
+      position: "Booosta",
+      description: "A Real Estate app, for house listing.",
+      linkto: "https://adedayo-nexter-home.netlify.app/",
+      delay: 500,
+      image: realEstate,
+      tools: "Reactjs, React-query,Firebase,Tailwind",
+      git: "https://github.com/pleasantvik/realtor",
     },
     {
       position: "Forkify",

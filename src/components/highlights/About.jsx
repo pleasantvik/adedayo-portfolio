@@ -2,7 +2,7 @@ import classes from "./Discount.module.css";
 import { useState, useEffect } from "react";
 import { Fade, Slide } from "react-awesome-reveal";
 import slide from "../../resources/images/slide_me.jpg";
-export const Discount = () => {
+export const About = () => {
   const [start, setStart] = useState(0);
   // const end = 30;
   // const percentage = () => {
